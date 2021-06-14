@@ -69,6 +69,10 @@ p {
     border-radius: 0.25rem;
 }
 
+.large-body {
+    font-size: 1.5rem;
+}
+
 /** Footer section **/
 footer {
     display: flex;
