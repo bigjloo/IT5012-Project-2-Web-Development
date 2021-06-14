@@ -26,7 +26,6 @@ Movie details booking section
 #movie-details-booking {
     padding: 25px 70px;
     display:flex;
-    border: 1px solid blue;
 }
 
 /* ==================================
@@ -34,7 +33,6 @@ Movie thumbnail small details section
 =================================== */
 #movie-details-thumbnail {
     /* padding: 10px; */
-    border: 1px solid red;
 }
 
 #movie-details-thumbnail dt{
@@ -61,7 +59,6 @@ Movie description booking section
 =================================== */
 #movie-description-booking {
     padding: 0px 1.75rem;
-    border: 1px solid green;
 }
 
 #movie-title-description .movie-title {
@@ -82,14 +79,12 @@ Movie schedule booking section
 =================================== */
 #booking-schedule {
     padding: 2rem 0rem;
-    border: 1px solid green;
 }
 
 .daily-schedule {
     display: flex;
     flex-direction: column;
     margin: 0.5rem 0rem;
-    border: 1px solid blue;
 }
 .time-schedule {
     display: flex;
@@ -114,8 +109,8 @@ Movie schedule booking section
     height: 5rem;
     width: 10rem;
     border-radius: 0.5rem;
-    border: 1px solid #580000;
-    border-left: 5px solid red;
+    border: 1px solid var(--purple);
+    border-left: 5px solid var(--purple);
     transition-duration: 200ms;
     transition-timing-function: ease-in;
 }
@@ -123,11 +118,11 @@ Movie schedule booking section
 .booking-btn:hover, .booking-btn:focus{
     transition-duration: 200ms;
     transition-timing-function: ease-in;
-    border: 1.5px solid red;
-    border-left: 5px solid red;
+    border: 1.5px solid var(--purple);
+    border-left: 5px solid var(--purple);
     cursor: pointer;
     font-size: 0.9rem;
-    background-color: #28070a;
+    background-color: #371040;
     color:white;
 }
 

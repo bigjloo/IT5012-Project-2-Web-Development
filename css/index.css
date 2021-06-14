@@ -1,40 +1,4 @@
 
-/* ======================
-Header navigation section 
-========================*/
-header {
-    margin: 0.5rem;
-    width: 100%;
-    padding: 0;
-}
-
-
-#header-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.nav__links li {
-    list-style-type: none;
-    display: inline;
-    margin: 0.5rem;
-    color: var(--grey)
-}
-
-.logo {
-    font-family: 'Open Sans Condensed';
-    font-weight: 700;
-    font-size: 4rem;
-    color: var(--gold);
-    margin-right: auto;
-}
-
-.icon {
-    width: 1.5rem;
-    height: 1.5rem;
-    cursor: pointer;
-}
 
 
 /* ========================
