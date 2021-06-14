@@ -1,19 +1,13 @@
 
-/** Header nav section**/
+/* ======================
+Header navigation section 
+========================*/
 header {
     margin: 0.5rem;
     width: 100%;
     padding: 0;
 }
-header ul {
-    margin: 0;
-    padding: 0;
-}
 
-header li {
-    list-style-type: none;
-    display: inline;
-}
 
 #header-nav {
     display: flex;
@@ -21,39 +15,20 @@ header li {
     align-items: center;
 }
 
-.nav-links {
-    padding: 1rem;
-}
-
-.nav-links:nth-child(2) {
-    font-size: 1.25rem;
+.nav__links li {
+    list-style-type: none;
+    display: inline;
+    margin: 0.5rem;
+    color: var(--grey)
 }
 
 .logo {
     font-family: 'Open Sans Condensed';
+    font-weight: 700;
     font-size: 4rem;
     color: var(--gold);
-    text-shadow: 0rem 0rem 2rem blanchedalmond;
     margin-right: auto;
 }
-
-.nav-links li {
-    display: inline-block;
-    margin: 0.5rem;
-    color: var(--grey);
-}
-
-nav {
-    display: inline-block;
-}
-
-/*
-.nav-icons {
-    float: right; 
-    margin: 0.5rem;
-    border: 1px solid green;
-}
-*/
 
 .icon {
     width: 1.5rem;
@@ -62,21 +37,22 @@ nav {
 }
 
 
-/** Jumbotron carousel section **/
+/* ========================
+ Jumbotron carousel section 
+ ======================== */
 .jumbotron {
     width: auto;
     max-height: 523px;
-    margin-bottom: 2rem;
 }
 
 .carousel {
-    text-align: center;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
-    /** carousel nav arrow **/
+/* carousel nav arrow */
 .arrow {
     width: 3rem;
     height: 3rem;
@@ -93,51 +69,65 @@ nav {
     float: right;
 }
 
-/** Location dropdown menu, search bar section **/
-.highlight {
-    font-family: 'Open Sans Condensed';
-    color: var(--gold);
-    font-size: 1.5rem;
-    margin: 0.5rem;
-}
-/** TODO 
-background color for select options
-font-family Open sans condense not working
-**/
+
+
+/* ========================================
+Location dropdown menu, search bar section 
+===========================================*/
 #location-search{
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    align-items: center;
+    padding: 2rem;
+
 }
 
 .location-dropdown-menu {
-    display: inline;
+    display: flex;
+    align-items: center;
 }
+
+/* 'WHATS ON AT' */
+.location-dropdown-menu span {
+    margin-right: 1rem;
+}
+
+/* 'Newmarket' */
+
+
+/* select {
+    cursor: pointer;
+}
+
+select:focus {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+select option{
+    cursor: pointer;
+    background: none;
+    color: var(--grey);
+} 
+
+TODO fix background of location select
+
+*/
 
 .no-bg-input {
     -webkit-appearance: none;
-    background: none;
+    background-color: transparent;
     color: var(--grey);
     border: none;
     border-bottom: 1px dashed;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     align-items: center;
 }
 
 .no-bg-input:focus{
     outline: none;
-}
-
-select {
-    cursor: pointer;
-}
-
-select option{
-    background-color: rgb(24, 24, 24);
-    color: var(--grey);
-    border: none;
-    opacity: 90%;
-}
+} 
 
 .btn-small {
     background: none;
@@ -154,24 +144,23 @@ select option{
 
 .btn-small:hover {
     color: var(--gold);
-    transform: scale(1.1);
     transition-duration: 200ms;
     transition-timing-function: ease-in-out;
     border: 1px solid var(--gold);
 }
 
 .search-bar {
-
+    display: flex;
 }
 
-/** Movies section **/
-.inactive {
-    opacity: 30%;
-}
-.movie-cards {
+
+/* ===========
+Movies section 
+=============*/
+#movie-cards {
     display: flex;
     flex-direction: row;
-    max-width: 1080px;
+    max-width: 1170px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -193,7 +182,7 @@ select option{
 }
 
 .movie-poster {
-    max-width: 247.5px;
+    max-width: 265px;
     height: auto;
     margin-top: 2rem;
 }    
@@ -203,6 +192,10 @@ select option{
     text-transform: uppercase;
     font-size: 1.25rem;
     z-index: 1;
+}
+
+.inactive {
+    opacity: 30%;
 }
 
 
