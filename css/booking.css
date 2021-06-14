@@ -1,0 +1,183 @@
+
+
+/* ==================
+Movie Booking Details
+====================*/
+#movie-booking-details {
+    display: flex;
+    padding: 20px;
+}
+
+.movie-poster-thumbnail {
+    max-width: 170px;
+    margin-right: 20px
+}
+
+.movie-booking-information {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.movie-booking-information * {
+    margin-top: 0.5rem;
+}
+
+.movie-booking-information .highlight{
+    font-size: 2rem;
+}
+.movie-booking-information .movie-title{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.location-theatre, .date-time {
+    color: var(--grey)
+}
+
+#booking-btn-section {
+    margin-top: auto;
+}
+
+.change-btn {
+    border: 1px solid var(--grey);
+    color: var(--grey);
+    height: 3rem;
+    width: 6rem;
+    margin: 0rem 1rem;
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.change-btn:hover, .change-btn:active, .change-btn:focus {
+    border: 1px solid white;
+    background-color: #212121 ;
+    color: white;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+}
+
+#seat-selection-wrapper {
+    display:flex;
+    justify-content: space-between;
+}
+
+#seat-select-section {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+/* fix center align */
+#screen {
+    width: 300px;
+    height: 10px;
+    background-color: grey;
+    box-shadow: 0rem 4rem 10rem 1.5rem white;
+    margin-bottom: 3rem;
+    margin: 1rem auto ;
+}
+
+#seats-section {
+    display:flex;
+    flex-direction: row;
+}
+
+.seats {
+    display: flex;
+    flex-direction: row;
+}
+
+#seats-left{
+    padding: 1rem;
+}
+
+#seats-right {
+    padding: 1rem;
+}
+.seat {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: grey;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.seat-not-available {
+    background-color:  #535353;
+}
+
+.seat-selected {
+    background-color: #01ff00;
+}
+
+#legend-section {
+    margin-top: 1rem;
+    padding: 1rem
+}
+
+#legend-section legend{
+    display:flex;
+    justify-content:flex-start;
+}
+
+legend {
+    align-items: center;
+}
+
+#review-pay-section{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+#total-seats {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+#total-seats span:nth-child(2){
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+
+#price {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem
+}
+
+#price span:nth-child(2){
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+
+.booking-label {
+    color: var(--grey);
+}
+
+.review-pay-btn {
+    height: 4rem;
+    width: 100% ;
+    border: 1px solid var(--gold);
+    color: white;
+    word-spacing: 0.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+    margin-top: auto;
+
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+}
+
+.review-pay-btn:hover {
+    border: 2px solid var(--gold);
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+    background-color: #0b0c00;
+}

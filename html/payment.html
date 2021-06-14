@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Payment Page - Avengers: Endgame</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content= "Payment Page" />
+  <meta name="keywords" content="avengers, endgame, eye candy cinema, movie, payment">
+  <link rel="stylesheet" type="text/css" href="../css/payment.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  
+</head>
+<body>
+    <section id="main-container">
+        <header>HEADER</header>
+        <section>
+            <section id="movie-booking-details">
+                <img class="movie-poster-thumbnail" src="../images/movie_posters/endgame_avengers_810_1200.jpg" alt="avengers: endgame movie poster thumbnail">
+                <section class="movie-booking-information">
+                    <span class="highlight">NOW BOOKING</span>
+                    <span class="movie-title">Avengers: Endgame</span>
+                    <span class="location-theatre">Newmarket, Theatre 8</span>
+                    <span class="date-time"><abbr title="Wednesday">WED</abbr> 19 <abbr title="June">JUN</abbr>, 9:30PM - 11:30PM</span>
+                </section>
+                <section id="booking-btn-section">
+                    <button class="btn change-btn">Change</button>
+                </section>
+            </section>
+            <hr>
+            <section id="tickets">
+                <span>2 Regular Seats</span>
+                <span>C12</span>
+                <span>C13</span>
+            </section>
+            <hr>
+            <section id="payment">
+                <span>Total: $24.00</span>
+                <form>
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Contact number">
+                    <!-- TODO rounded checkbox-->
+                    <label>SELECT PAYMENT METHOD</label>
+                    <div>
+                        
+                        <label for="visa">
+                            <input  class="round" type="checkbox" name="visa" value="visa">
+                            <span class="checkmark"></span>
+                            PAY BY VISA
+                        </label>
+                    </div>
+                    <div >
+                        <input class="round" type="checkbox" name="online banking" value="online banking">
+                        <label for="online banking">PAY BY ONLINE BANKING</label>
+                    </div>
+                    <div>
+                        <input class="round" type="checkbox" name="google pay" value="google pay">
+                        <label for="google pay">PAY BY GOOGLE PAY</label>
+                    </div>
+                    <button id="tnc-btn">    
+                        <label for="google pay">
+                            <input class="round" type="checkbox" name="tnc" value="tnc">
+                            I AGREE TO TERMS AND CONDITION
+                        </label>
+                    </button>
+                    <button id="submit-button" type="submit">Submit</button>
+                </form>
+                
+            </section>
+        </section>
+        <hr>
+        <footer>  
+            <nav>
+                <ul>
+                    <li class="footer-nav-title">GET IN TOUCH</li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Give us Feedback</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li class="footer-nav-title">ABOUT ECC</li>
+                    <li>About us</li>
+                    <li>IMAX</li>
+                    <li>Careers</li>
+                    <li>Big screen experiences</li>
+                    <li>Advertising</li>
+                    <li>Gift Cards</li>
+                    
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li class="footer-nav-title">LEGAL</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Accessibility</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li class="footer-nav-title">SOCIAL MEDIA</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </nav>
+        </footer>
+    </section>
+</body>
+</html>

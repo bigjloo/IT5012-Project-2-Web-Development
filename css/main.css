@@ -1,0 +1,106 @@
+/** Open Sans Condense **/
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url("../Open_Sans_Condensed/OpenSansCondensed-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Open Sans Roboto*/
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url("../Open_Sans/OpenSans-Regular.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+/** Root Body Container**/
+:root {
+    --gold: #FAD02C;
+    --grey: #838383;
+    font-family: 'Roboto Condensed';
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+}
+
+a:hover {
+    color:burlywood; 
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+body {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+#main-container {
+    width: 1170px;
+    height: 100vh;
+    margin: auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.highlight {
+    font-family: 'Open Sans Condensed';
+    color: var(--gold);
+    font-size: 1rem;
+}
+
+p {
+    color: var(--grey)
+}
+
+.btn {
+    background: none;
+    border-radius: 0.25rem;
+}
+
+/** Footer section **/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+footer nav {
+    width: 25%;
+    text-align: left;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+.footer-nav-title {
+    font-weight: normal;
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+footer ul li {
+    font-size: 1rem;
+    color: var(--grey);
+    padding: 0.25rem;
+}
+
+hr {
+    margin: 3rem 1rem;
+    opacity: 50%;
+}
