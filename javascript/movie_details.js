@@ -1,57 +1,67 @@
 window.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('toggle-more-schedule').addEventListener('click', (e) => {
-        const booking_schedule_div = document.getElementById('booking-schedule');
-
-        const todaySchedule = 
+    var isScheduleCollapsed = true;
+    const booking_schedule_div = document.getElementById('booking-schedule');
+    const todaySchedule = 
             `<div class="daily-schedule">
                 <div>
                     <span class="day">TODAY</span> <span class="date"><abbr title="Monday">MON</abbr> 14 <abbr title="June">JUN</abbr></span>
                 </div>
                 <div class="time-schedule">
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">12:30pm</span>
-                            <span class="theatre-type v-max uppercase">v-max</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">12:30pm</span>
+                                <span class="theatre-type v-max uppercase">v-max</span>
+                            </button>
+                        </a>
                     </div>
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">2:30pm</span>
-                            <span class="theatre-type gold uppercase">gold</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">2:30pm</span>
+                                <span class="theatre-type gold uppercase">gold</span>
+                            </button>
+                        </a>
                     </div>
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">5:30pm</span>
-                            <span class="theatre-type deluxe uppercase">deluxe</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">5:30pm</span>
+                                <span class="theatre-type deluxe uppercase">deluxe</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>`
-
-        const allSchedule = 
+    const allSchedule = 
             `<div class="daily-schedule">
                 <div>
                     <span class="day">TODAY</span> <span class="date"><abbr title="Monday">MON</abbr> 14 <abbr title="June">JUN</abbr></span>
                 </div>
                 <div class="time-schedule">
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">12:30pm</span>
-                            <span class="theatre-type v-max uppercase">v-max</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">12:30pm</span>
+                                <span class="theatre-type v-max uppercase">v-max</span>
+                            </button>
+                        </a>        
                     </div>
                     <div>
+                        <a href="booking.html">
                         <button class="booking-btn">
                             <span class="btn-time">2:30pm</span>
                             <span class="theatre-type gold uppercase">gold</span>
                         </button>
+                        </a>
                     </div>
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">5:30pm</span>
-                            <span class="theatre-type deluxe uppercase">deluxe</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">5:30pm</span>
+                                <span class="theatre-type deluxe uppercase">deluxe</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -61,16 +71,20 @@ window.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="time-schedule">
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">3:00pm</span>
-                            <span class="theatre-type gold uppercase">v-max</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">3:00pm</span>
+                                <span class="theatre-type gold uppercase">v-max</span>
+                            </button>
+                        </a>
                     </div>
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">7:30pm</span>
-                            <span class="theatre-type deluxe uppercase">deluxe</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">7:30pm</span>
+                                <span class="theatre-type deluxe uppercase">deluxe</span>
+                            </button>
+                        </a>    
                     </div>
                 </div>
             </div>
@@ -80,54 +94,78 @@ window.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="time-schedule ">
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">12:30pm</span>
-                            <span class="theatre-type v-max uppercase">v-max</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">12:30pm</span>
+                                <span class="theatre-type v-max uppercase">v-max</span>
+                            </button>
+                        </a>
                     </div>
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">2:30pm</span>
-                            <span class="theatre-type gold uppercase">gold</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">2:30pm</span>
+                                <span class="theatre-type gold uppercase">gold</span>
+                            </button>
+                        </a>
                     </div>
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">5:30pm</span>
-                            <span class="theatre-type deluxe uppercase">deluxe</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">5:30pm</span>
+                                <span class="theatre-type deluxe uppercase">deluxe</span>
+                            </button>
+                        </a>
                     </div>
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">2:30pm</span>
-                            <span class="theatre-type gold uppercase">gold</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">2:30pm</span>
+                                <span class="theatre-type gold uppercase">gold</span>
+                            </button>
+                        </a>
                     </div>
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">5:30pm</span>
-                            <span class="theatre-type deluxe uppercase">deluxe</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">5:30pm</span>
+                                <span class="theatre-type deluxe uppercase">deluxe</span>
+                            </button>
+                        </a>
                     </div>
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">2:30pm</span>
-                            <span class="theatre-type gold uppercase">gold</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">2:30pm</span>
+                                <span class="theatre-type gold uppercase">gold</span>
+                            </button>
+                        </a>
                     </div>
                     <div>
-                        <button class="booking-btn">
-                            <span class="btn-time">5:30pm</span>
-                            <span class="theatre-type deluxe uppercase">deluxe</span>
-                        </button>
+                        <a href="booking.html">
+                            <button class="booking-btn">
+                                <span class="btn-time">5:30pm</span>
+                                <span class="theatre-type deluxe uppercase">deluxe</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>`
+
+    const toggleAllScheduleElement = document.getElementById('toggle-more-schedule');
+
+    toggleAllScheduleElement.addEventListener('click', (e) => {
+        if (isScheduleCollapsed == true) {
+            booking_schedule_div.innerHTML = allSchedule;
+            isScheduleCollapsed = false;
+            toggleAllScheduleElement.innerHTML = `<span class="highlight">-COLLAPSE</span>`
+        } else {
+            booking_schedule_div.innerHTML = todaySchedule;
+            isScheduleCollapsed = true;
+            toggleAllScheduleElement.innerHTML = `<span class="highlight">+ SHOW ALL FILM TIMES</span>`
+        }
+    
         
-        
-        booking_schedule_div.innerHTML = allSchedule
-            
-        document.getElementById('toggle-more-schedule').innerHTML = `<span class="highlight">-</span>collapse</a>`
 
         /* TODO 
         toggle on off full/partial movie schedule
