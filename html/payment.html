@@ -56,36 +56,36 @@
                 <span>C12</span>
                 <span>C13</span>
             </section>
-            <hr>
             <section id="payment">
-                <span>Total: $24.00</span>
+                <span>Total: <span class="white">$24.00</span></span>
                 <form action="thank_you_page.html">
                     <input type="text" placeholder="Email">
                     <input type="text" placeholder="Contact number">
                     <!-- TODO rounded checkbox-->
-                    <label>SELECT PAYMENT METHOD</label>
+                    <label class="white">SELECT PAYMENT METHOD</label>
                     <div>
                         
                         <label for="visa">
-                            <input  class="round" type="checkbox" name="visa" value="visa">
+                            <input type="checkbox" name="visa" value="visa">
                             <span class="checkmark"></span>
                             PAY BY VISA
                         </label>
                     </div>
                     <div >
-                        <input class="round" type="checkbox" name="online banking" value="online banking">
+                        <input type="checkbox" name="online banking" value="online banking">
                         <label for="online banking">PAY BY ONLINE BANKING</label>
                     </div>
                     <div>
-                        <input class="round" type="checkbox" name="google pay" value="google pay">
+                        <input type="checkbox" name="google pay" value="google pay">
                         <label for="google pay">PAY BY GOOGLE PAY</label>
                     </div>
-                    <button id="tnc-btn">    
-                        <label for="google pay">
-                            <input class="round" type="checkbox" name="tnc" value="tnc">
-                            I AGREE TO TERMS AND CONDITION
-                        </label>
-                    </button>
+                    <!-- <button id="tnc-btn">    
+                        
+                    </button> -->
+                    <label for="tnc">
+                        <input type="checkbox" name="tnc" value="tnc">
+                        I AGREE TO TERMS AND CONDITION
+                    </label>
                     <button id="submit-button" type="submit">Submit</button>
                 </form>
                 

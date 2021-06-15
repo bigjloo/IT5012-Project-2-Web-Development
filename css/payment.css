@@ -61,9 +61,10 @@ Tickets Details
 #tickets {
     display:flex;
     flex-direction: row;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 1rem;
-    color: var(--grey)
+    width: 50%;
+    margin: auto;
 }
 #tickets span:nth-child(2) {
     margin-left: auto;
@@ -73,62 +74,86 @@ Tickets Details
 /* ============
 Payment Details
 ===============*/
+.white {
+    color: white;
+}
+
+
 #payment {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    width: 50%;
+    margin: auto;
+    font-size: 1rem;
 }
 
 #payment span:nth-child(1) {
-    font-size: 1.5rem;
-
+    font-size: 1.25rem;
 }
 
 #payment input {
     padding: 1rem;
-    color: white;
+    color: var(--grey);
     background: none;
-    border: 1px solid white;
+    border: 1px solid var(--purple);
     border-radius: 0.5rem;
     margin: 1rem 0rem;
-    font-size: 1.5rem
+    font-size: 1.25rem
 }
 
 #payment form{
     display: flex;
     flex-direction: column;
-    font-size: 1.5rem
+    font-size: 1.25rem;
+    color: var(--grey)
+}
+
+#payment form:nth-child(1) {
+    color: white;
+    border: 1px solid red;
+}
+
+/* #payment .round {
+    width: 2rem;
+    border-radius: 50%;
+    background-color: wheat;
+} */
+
+/* .checkmark {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: red;
+} */
+
+#tnc-btn {
+    padding: 1rem;
+    background: none;
+    color: var(--grey);
+    border: 1px solid var(--purple);
+    border-radius: 0.5rem;
+    margin: 1rem 0rem;
+    font-size: 1.25rem
 }
 
 #submit-button{
     padding: 1rem;
     color: white;
     background: none;
-    border: 1px solid white;
+    border: 1px solid var(--purple);
     border-radius: 0.5rem;
     margin: 1rem 0rem;
-    font-size: 1.5rem
+    font-size: 1.25rem
 }
 
-#payment .round {
-    width: 2rem;
-    border-radius: 50%;
-    background-color: wheat;
+#submit-button:hover {
+    transition: ease-in;
+    transition-duration: 200ms;
+    background-color: var(--dark-purple);
 }
 
-.checkmark {
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 50%;
-    background-color: red;
-}
-
-#tnc-btn {
-    padding: 1rem;
-    background: none;
-    color: white;
-    border: 1px solid white;
-    border-radius: 0.5rem;
-    margin: 1rem 0rem;
-    font-size: 1.5rem
+label[for='tnc'] {
+    margin-top: 3rem;
+    color: white
 }

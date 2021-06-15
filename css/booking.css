@@ -173,8 +173,6 @@ legend {
     word-spacing: 0.5rem;
     font-size: 1.5rem;
     letter-spacing: 0.25rem;
-
-
     transition-duration: 100ms;
     transition-timing-function: ease-in;
 }
@@ -183,6 +181,5 @@ legend {
     border: 2px solid var(--purple);
     transition-duration: 100ms;
     transition-timing-function: ease-in;
-    background-color: #371040;
-
+    background-color: var(--dark-purple);
 }
