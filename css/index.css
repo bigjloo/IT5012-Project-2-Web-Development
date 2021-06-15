@@ -1,6 +1,3 @@
-
-
-
 /* ========================
  Jumbotron carousel section 
  ======================== */
@@ -33,6 +30,25 @@
     float: right;
 }
 
+
+/* ======================
+Now Showing | Coming Soon
+========================*/
+#now-showing-coming-soon-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#coming-soon {
+    font-family: 'Open Sans Condensed';
+    color: var(--grey);
+}
+
+#seperator {
+    font-size: 2.5rem;
+}
 
 
 /* ========================================

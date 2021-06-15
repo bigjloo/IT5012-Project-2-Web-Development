@@ -13,5 +13,7 @@
 
 ### Planning
  Identify user goals and purpose
- Allow users to search for 
+ Allow users to view movie details and make bookings via web portal
+ 
+
  
