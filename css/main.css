@@ -20,6 +20,8 @@
     --grey: #838383;
     --purple: #702384;
     --dark-purple: #371040;
+    --purpleish:  #0e0d12;
+    --purple-black:#09080b;
     font-family: 'Roboto Condensed';
 }
 
@@ -42,8 +44,13 @@ a:hover {
 
 body {
     font-size: 16px;
-    background-color: black;
+    background: rgb(26,18,38);
+    background: linear-gradient(90deg, rgba(26,18,38,1) 0%, rgba(4,12,36,1) 50%, rgba(23,31,48,1) 100%);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
+    height: 100vh;
 }
 
 #main-container {
@@ -78,9 +85,9 @@ p {
 Header navigation section 
 ========================*/
 header {
-    margin: 0.5rem;
     width: 100%;
     padding: 0;
+    margin-bottom: 1rem;
 }
 
 
@@ -121,7 +128,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 4rem;
-    padding-top: 2rem;
+    margin-top: 4rem;
 }
 
 footer nav {
@@ -149,4 +156,5 @@ footer ul li {
 hr {
     margin: 3rem 1rem;
     opacity: 50%;
+    background-color: var(--purpleish)
 }
