@@ -164,11 +164,5 @@ window.addEventListener('DOMContentLoaded', () => {
             isScheduleCollapsed = true;
             toggleAllScheduleElement.innerHTML = `<span class="highlight">+ SHOW ALL FILM TIMES</span>`
         }
-    
-        
-
-        /* TODO 
-        toggle on off full/partial movie schedule
-        */
     })
 })
