@@ -61,15 +61,16 @@ Tickets Details
 #tickets {
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
     font-size: 1.25rem;
     padding: 1rem;
     width: 50%;
     margin: auto;
 }
-#tickets span:nth-child(2) {
+/* #tickets span:nth-child(2) {
     margin-left: auto;
     margin-right: 1rem;
-}
+} */
 
 /* ============
 Payment Details
