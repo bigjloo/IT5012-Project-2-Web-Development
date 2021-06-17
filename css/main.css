@@ -85,7 +85,7 @@ Header navigation section
 ========================*/
 header {
     margin: auto;
-    width: 1170px;
+    max-width: 1170px;
     padding: 0;
     margin-bottom: 1rem;
 }

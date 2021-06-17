@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-    /* inactive for movie card on focus */
+    /* Blur out of focus movie cards */
     const cards = document.getElementsByClassName('card')
     Array.prototype.forEach.call(cards, element => {
         element.addEventListener('mouseenter', () => {
@@ -15,15 +15,15 @@ window.addEventListener('DOMContentLoaded', () => {
             })
         })
     });
-    
-    
 
+    /* main carousel change every 3 seconds */
     const imageSlides = [
         "banner.webp",
         "imax.jpg",
-        "Black-Widow.png",
+        "godzilla_large.jpg",
+        "venom_large.png",
     ]
-
+    
     const slideImageDiv = document.getElementById('slideImage')
     function changeSlide(){
         slideImageDiv.src = "../images/large/" + imageSlides[Math.floor(Math.random() * imageSlides.length)];

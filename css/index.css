@@ -9,28 +9,9 @@
 }
 
 .jumbotron {
-    width: auto;
-    max-height: 600px;
+    width: 100%;
+    max-height: auto;
 }
-
-/* carousel nav arrow */
-/* .arrow {
-    width: 3rem;
-    height: 3rem;
-    opacity: 50%;
-    cursor: pointer;
-}
-
-.left-nav-arrow {
-    transform: rotateY(180deg);
-    float:left;
-}
-
-.right-nav-arrow {
-    float: right;
-} */
-
-
 /* ======================
 Now Showing | Coming Soon
 ========================*/
