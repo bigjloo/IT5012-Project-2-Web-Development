@@ -15,4 +15,20 @@ window.addEventListener('DOMContentLoaded', () => {
             })
         })
     });
+    
+    
+
+    const imageSlides = [
+        "banner.webp",
+        "imax.jpg",
+        "Black-Widow.png",
+    ]
+
+    const slideImageDiv = document.getElementById('slideImage')
+    function changeSlide(){
+        slideImageDiv.src = "../images/large/" + imageSlides[Math.floor(Math.random() * imageSlides.length)];
+
+    }
+
+    setInterval(changeSlide, 3000);
 })
