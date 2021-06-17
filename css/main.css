@@ -46,7 +46,6 @@ body {
     font-size: 16px;
     background: rgb(26,18,38);
     background: linear-gradient(90deg, rgba(26,18,38,1) 0%, rgba(4,12,36,1) 50%, rgba(23,31,48,1) 100%);
-
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
