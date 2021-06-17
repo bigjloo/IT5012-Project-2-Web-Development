@@ -10,6 +10,8 @@ window.addEventListener('DOMContentLoaded', () => {
                 seat.classList.remove('seat-selected');
                 count -= 1;
                 seatCount.innerHTML = count;
+                /* TODO transition when change happens */
+                seatCount.style.transition = "red";
                 priceTotal.innerHTML = `$${count * 12}.00`;
                 localStorage.setItem("tickets", count);
             } else if (seat.classList.contains('seat-not-available')){
@@ -18,10 +20,10 @@ window.addEventListener('DOMContentLoaded', () => {
                 seat.classList.add('seat-selected');
                 count += 1;
                 seatCount.innerHTML = count;
+                seatCount.style.color = "red";
                 priceTotal.innerHTML = `$${count * 12}.00`;
                 localStorage.setItem("tickets", count);
             }
-            
         })
     })
 })

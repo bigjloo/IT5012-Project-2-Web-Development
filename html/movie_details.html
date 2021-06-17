@@ -8,7 +8,8 @@
   <meta name="keywords" content="avengers, endgame, eye candy cinema, movie">
   <link rel="stylesheet" type="text/css" href="../css/movie_details.css">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
-  
+  <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+
 </head>
 <body>
     <section id="main-container">
@@ -40,7 +41,7 @@
         <!-- Trailer Section -->
         <section id="trailer-video">
                 <!-- <img id="play-button" src="../images/icons/play_video_white.png"> -->
-                <video id="trailer" width="1170" height="486" controls >
+                <video class="video-js vjs-big-play-centered" id="trailer" width="1170" height="486" controls preload="auto" data-setup="{}" poster="../images/large/trailer-poster_2.jpg">
                     <source src="../resources/Y2Mate.is - Marvel Studios' Avengers Infinity War Official Trailer-6ZfuNTqbHE8-720p-1623203454437.mp4" type="video/mp4" alt="avengers: endgame movie trailer">
                 </video>
         </section>
@@ -163,4 +164,5 @@
     </section>
 </body>
 <script src="../javascript/movie_details.js"></script>
+<script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
 </html>

@@ -155,11 +155,12 @@ Movies section
 }
 
 .card:hover, .card:focus{
-    transform: scale(1.1);
+    transform: scale(1.15);
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
     box-shadow: 0rem 0.5rem 1.5rem grey, 0rem 1.5rem 1.5rem black;
 }
+
 
 .movie-poster {
     max-width: 265px;
@@ -175,7 +176,8 @@ Movies section
 }
 
 .inactive {
-    opacity: 30%;
+    opacity: 50%;
+    filter: blur(0.1rem);
 }
 
 

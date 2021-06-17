@@ -182,4 +182,5 @@ legend {
     transition-duration: 100ms;
     transition-timing-function: ease-in;
     background-color: var(--dark-purple);
+    text-shadow: 0 0 7px #ffe77e, 0 0 10px #ffe77e
 }
