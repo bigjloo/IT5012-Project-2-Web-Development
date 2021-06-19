@@ -3,13 +3,13 @@
 - Design and build website using current web standards
 - Understand usability, utility, accessability for web design
 - Web development life cycle
-- UX and User Centered Design
+- User Centered Design and UX
 
 ## Study materials 
-- usability.org
+- [usability.org](usability.org)
 - UX Pin - UX Design 2015/2016 - Successful Trends for Digital Products
-- goodui.org
-- material.io
+- [goodui.org](goodui.org)
+- [material.io](material.io)
 
 ### Planning
  Identify user goals and purpose
