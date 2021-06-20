@@ -23,12 +23,6 @@
                                 <li><a href="#">OFFERS</a></li>
                             </ul>
                     </nav>
-                    <!-- <nav class="nav-links">
-                        <ul>
-                            <li class="loginjoin"><a href="#">Login</a></li>
-                            <li class="loginjoin"><a href="#">Join</a></li>
-                        </ul>
-                    </nav> -->
                     <nav class="nav__links">
                         <ul>
                             <li><img class="icon" src="../images/icons/user_white.png" alt="user account icon"></li>
@@ -38,114 +32,120 @@
             </section>
         </header>
 
-    <section id="booking-details">
-        <section id="movie-booking-details">
-            <img class="movie-poster-thumbnail" src="../images/movie_posters/endgame_avengers_810_1200.jpg" alt="avengers: endgame movie poster thumbnail">
-            <section class="movie-booking-information">
-                <span class="highlight">NOW BOOKING</span>
-                <span class="movie-title">Avengers: Endgame</span>
-                <span class="location-theatre">Newmarket, Theatre 8</span>
-                <span class="date-time"><abbr title="Wednesday">WED</abbr> 19 <abbr title="June">JUN</abbr>, 9:30PM - 11:30PM</span>
+        <main id="booking-details">
+            <!-- Movie booking details -->
+            <section id="movie-booking-details">
+                <img class="movie-poster-thumbnail" src="../images/movie_posters/endgame_avengers_810_1200.jpg" alt="avengers: endgame movie poster thumbnail">
+                <section class="movie-booking-information">
+                    <span class="highlight">NOW BOOKING</span>
+                    <span class="movie-title">Avengers: Endgame</span>
+                    <span class="location-theatre">Newmarket, Theatre 8</span>
+                    <span class="date-time"><abbr title="Wednesday">WED</abbr> 19 <abbr title="June">JUN</abbr>, 9:30PM - 11:30PM</span>
+                </section>
+                <section id="booking-btn-section">
+                    <button class="btn change-btn">Change</button>
+                </section>
             </section>
-            <section id="booking-btn-section">
-                <button class="btn change-btn">Change</button>
+            
+            <hr>
+            <!-- Seat Selection section -->
+            <section id="seat-selection-wrapper">
+                <section id="seat-select-section">
+                    <div id="screen"></div>
+                    <!-- seats -->
+                    <section id="seats-section">
+                        <div id="seats-left">
+                            <div class="seats">
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat seat-not-available"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                            </div>
+                            <div class="seats">
+                                <div class="seat"></div>
+                                <div class="seat seat-not-available"></div>
+                                <div class="seat seat-not-available"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                            </div>
+                            <div class="seats">
+                                <div class="seat"></div>
+                                <div class="seat seat-not-available"></div>
+                                <div class="seat seat-not-available"></div>
+                                <div class="seat seat-not-available"></div>
+                                <div class="seat"></div>
+                            </div>
+                            <div class="seats">
+                                <div class="seat seat-not-available"></div>
+                                <div class="seat seat-not-available"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                            </div>
+                        </div>
+                        <div id="seats-right">
+                            <div class="seats">
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                            </div>
+                            <div class="seats">
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                            </div>
+                            <div class="seats">
+                                <div class="seat seat-not-available"></div>
+                                <div class="seat seat-not-available"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                            </div>
+                            <div class="seats">
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                                <div class="seat"></div>
+                            </div>
+                        </div>
+                    </section>
+                    <legend id="legend-section">
+                        <div>
+                            <div class="seat"></div>
+                            <span>Available</span>
+                        </div>
+                        <div>
+                            <div class="seat seat-not-available"></div>
+                            <span>Not Available</span>
+                        </div>
+                        <div>
+                            <div class="seat seat-selected"></div>
+                            <span>Selected</span>
+                        </div>
+                    </legend>
+                </section>
+                <!-- seat count + review and pay button -->
+                <section id="review-pay-section">
+                    <section id="seats-total">
+                        <div id="total-seats">
+                            <span class="booking-label">Seats Selected</span>
+                            <span id="seat-selected-count">0</span>
+                        </div>
+                        <div id="price">
+                            <span class="booking-label">Total</span>
+                            <span id="total-price">$0</span>
+                        </div>
+                    </section>
+                    <button class="btn review-pay-btn"><a href="payment.html">Review And Pay</a></button>
+                </section>
             </section>
-        </section>
-        <hr>
-        <section id="seat-selection-wrapper">
-            <div id="seat-select-section">
-                <div id="screen"></div>
-                <section id="seats-section">
-                    <div id="seats-left">
-                        <div class="seats">
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat seat-not-available"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                        </div>
-                        <div class="seats">
-                            <div class="seat"></div>
-                            <div class="seat seat-not-available"></div>
-                            <div class="seat seat-not-available"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                        </div>
-                        <div class="seats">
-                            <div class="seat"></div>
-                            <div class="seat seat-not-available"></div>
-                            <div class="seat seat-not-available"></div>
-                            <div class="seat seat-not-available"></div>
-                            <div class="seat"></div>
-                        </div>
-                        <div class="seats">
-                            <div class="seat seat-not-available"></div>
-                            <div class="seat seat-not-available"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                        </div>
-                    </div>
-                    <div id="seats-right">
-                        <div class="seats">
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                        </div>
-                        <div class="seats">
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                        </div>
-                        <div class="seats">
-                            <div class="seat seat-not-available"></div>
-                            <div class="seat seat-not-available"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                        </div>
-                        <div class="seats">
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                            <div class="seat"></div>
-                        </div>
-                    </div>
-                </section>
-                <section id="legend-section">
-                    <legend>
-                        <div class="seat"></div><span>Available</span>
-                    </legend>
-                    <legend>
-                        <div class="seat seat-not-available"></div><span>Not Available</span>
-                    </legend>
-                    <legend>
-                        <div class="seat seat-selected"></div><span>Selected</span>
-                    </legend>
-                </section>
-            </div>
-            <div id="review-pay-section">
-                <section id="seats-total">
-                    <div id="total-seats">
-                        <span class="booking-label">Seats Selected</span>
-                        <span id="seat-selected-count">0</span>
-                    </div>
-                    <div id="price">
-                        <span class="booking-label">Total</span>
-                        <span id="total-price">$0</span>
-                    </div>
-                </section>
-                <a href="payment.html">
-                    <button class="btn review-pay-btn">Review And Pay</button>
-                </a> 
-            </div>
-        </section>
-    </section>
+        </main>
         <!-- Footer -->
         <hr>
         <footer>  
@@ -188,7 +188,6 @@
             </nav>
         </footer>
     </section>
-   
 </body>
 <script src="../javascript/booking.js"></script>
 </html>

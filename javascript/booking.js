@@ -4,6 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
     var priceTotal = document.getElementById('total-price');
     const seats = document.getElementsByClassName('seat');
 
+    /* select seat */
     Array.prototype.forEach.call(seats, (seat) => {
         seat.addEventListener('click', () => {
             if (seat.classList.contains('seat-selected')){

@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     });
 
-    /* main carousel change every 3 seconds */
+    /* main carousel change every 3 seconds at random */
     const imageSlides = [
         "banner.webp",
         "imax.jpg",

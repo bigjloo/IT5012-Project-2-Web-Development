@@ -30,6 +30,7 @@ a {
     color: inherit;
     transition-duration: 200ms;
     transition-timing-function: ease-in;
+    font-family: 'Roboto';
 }
 
 a:hover {
@@ -78,6 +79,10 @@ p {
 
 .large-body {
     font-size: 2rem;
+}
+
+.gold {
+    color: var(--gold)
 }
 
 /* ======================

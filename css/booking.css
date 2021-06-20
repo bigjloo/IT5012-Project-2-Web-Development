@@ -1,5 +1,4 @@
 
-
 /* ==================
 Movie Booking Details
 ====================*/
@@ -57,9 +56,13 @@ Movie Booking Details
     transition-timing-function: ease-in;
 }
 
+/*====================
+Seat selection section
+==================== */
 #seat-selection-wrapper {
     display:flex;
     justify-content: space-between;
+
 }
 
 #seat-select-section {
@@ -67,9 +70,9 @@ Movie Booking Details
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+
 }
 
-/* fix center align */
 #screen {
     width: 300px;
     height: 10px;
@@ -82,8 +85,12 @@ Movie Booking Details
 #seats-section {
     display:flex;
     flex-direction: row;
-}
+    justify-content:space-evenly;
 
+}
+/* ===
+Seats
+=====*/
 .seats {
     display: flex;
     flex-direction: row;
@@ -112,20 +119,23 @@ Movie Booking Details
     background-color: #01ff00;
 }
 
+/* ====
+Legend 
+======*/
 #legend-section {
     margin-top: 1rem;
     padding: 1rem
 }
 
-#legend-section legend{
+#legend-section div{
     display:flex;
     justify-content:flex-start;
-}
-
-legend {
     align-items: center;
 }
 
+/* ===================
+Review and pay section
+==================== */
 #review-pay-section{
     flex-grow: 1;
     display: flex;
@@ -161,7 +171,7 @@ legend {
     color: var(--grey);
 }
 
-#review-pay-section a {
+#review-pay-section button {
     margin-top: auto;
 }
 

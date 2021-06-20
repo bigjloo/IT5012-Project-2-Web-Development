@@ -1,22 +1,4 @@
 
-/* .hidden {
-    display:none;
-    visibility: hidden;
-} */
-/* ===================
-Trailer movie section
-==================== */
-#trailer-video {
-}
-
-#play-button {
-    width: 60px;
-    height: 60px;
-    position:absolute;
-    top: 50%;
-    bottom: 50%;
-    text-align: center;
-}
 /* ============================
 Movie details booking section
 ============================= */
@@ -28,10 +10,6 @@ Movie details booking section
 /* ==================================
 Movie thumbnail small details section
 =================================== */
-#movie-details__thumbnail {
-    /* padding: 10px; */
-}
-
 .movie-poster-thumbnail {
     max-width: 200px;
 }
@@ -55,8 +33,6 @@ Movie thumbnail small details section
 dd a, dt a{
     border-bottom: 1px dotted;
 }
-
-
 
 /* ==================================
 Movie description booking section
@@ -102,7 +78,7 @@ Movie schedule booking section
 .date {
     color: grey;
 }
-/* BOOKING BUTTON */
+
 .booking-btn {
     background: none;
     padding: 1rem;
@@ -132,7 +108,6 @@ Movie schedule booking section
 }
 
 .booking-btn .btn-time {
-    /* color:var(--grey); */
     font-size: 1.2rem;
     font-weight: 100;
 } 
@@ -142,6 +117,9 @@ Movie schedule booking section
     font-weight: 500;
 }
 
+/* =========
+Theatre Type
+===========*/
 .gold{
     color: gold
 }

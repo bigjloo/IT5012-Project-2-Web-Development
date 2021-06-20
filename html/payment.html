@@ -23,12 +23,6 @@
                                 <li><a href="#">OFFERS</a></li>
                             </ul>
                     </nav>
-                    <!-- <nav class="nav-links">
-                        <ul>
-                            <li class="loginjoin"><a href="#">Login</a></li>
-                            <li class="loginjoin"><a href="#">Join</a></li>
-                        </ul>
-                    </nav> -->
                     <nav class="nav__links">
                         <ul>
                             <li><img class="icon" src="../images/icons/user_white.png" alt="user account icon"></li>
@@ -37,7 +31,9 @@
                     </nav>            
             </section>
         </header>
-        <section>
+
+        <main>
+            <!-- Movie booking details -->
             <section id="movie-booking-details">
                 <img class="movie-poster-thumbnail" src="../images/movie_posters/endgame_avengers_810_1200.jpg" alt="avengers: endgame movie poster thumbnail">
                 <section class="movie-booking-information">
@@ -51,21 +47,20 @@
                 </section>
             </section>
             <hr>
+            <!-- Ticket count + seats -->
             <section id="tickets">
                 <span id="ticket-count"></span> 
-                <div id="seats">
-
-                </div>
+                <div id="seats"></div>
             </section>
+            <!-- Payment section -->
             <section id="payment">
                 <span>Total: <span id="total-price" class="white">$0.00</span></span>
                 <form action="thank_you_page.html">
                     <input type="text" placeholder="Email">
                     <input type="text" placeholder="Contact number">
-                    <!-- TODO rounded checkbox-->
+                        <!-- TODO rounded checkbox-->
                     <label class="white">SELECT PAYMENT METHOD</label>
-                    <div>
-                        
+                    <div>               
                         <label for="visa">
                             <input type="checkbox" name="visa" value="visa">
                             <span class="checkmark"></span>
@@ -80,18 +75,14 @@
                         <input type="checkbox" name="google pay" value="google pay">
                         <label for="google pay">PAY BY GOOGLE PAY</label>
                     </div>
-                    <!-- <button id="tnc-btn">    
-                        
-                    </button> -->
                     <label for="tnc">
                         <input type="checkbox" name="tnc" value="tnc">
                         I AGREE TO TERMS AND CONDITION
                     </label>
                     <button id="submit-button" type="submit">Submit</button>
                 </form>
-                
             </section>
-        </section>
+        </main>
         <!-- Footer -->
         <hr>
         <footer>  
@@ -135,6 +126,5 @@
         </footer>
     </section>
 </body>
-
 <script src="../javascript/payment.js"></script>
 </html>

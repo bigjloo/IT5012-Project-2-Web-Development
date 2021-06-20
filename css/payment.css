@@ -67,13 +67,9 @@ Tickets Detail
     width: 50%;
     margin: auto;
 }
-/* #tickets span:nth-child(2) {
-    margin-left: auto;
-    margin-right: 1rem;
-} */
 
 /* ============
-Payment Details
+Payment section
 ===============*/
 .white {
     color: white;
@@ -113,29 +109,6 @@ Payment Details
 #payment form:nth-child(1) {
     color: white;
     border: 1px solid red;
-}
-
-/* #payment .round {
-    width: 2rem;
-    border-radius: 50%;
-    background-color: wheat;
-} */
-
-/* .checkmark {
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 50%;
-    background-color: red;
-} */
-
-#tnc-btn {
-    padding: 1rem;
-    background: none;
-    color: var(--grey);
-    border: 1px solid var(--purple);
-    border-radius: 0.5rem;
-    margin: 1rem 0rem;
-    font-size: 1.25rem
 }
 
 #submit-button{
