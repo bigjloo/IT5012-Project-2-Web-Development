@@ -119,6 +119,11 @@ Seats
     background-color: #01ff00;
 }
 
+.seat:active {
+    transform: scale(1.3);
+    transition-duration: 40ms;
+}
+
 /* ====
 Legend 
 ======*/
