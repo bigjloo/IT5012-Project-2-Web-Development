@@ -23,6 +23,20 @@
     --purpleish:  #0e0d12;
     --purple-black:#09080b;
     font-family: 'Roboto Condensed';
+
+    /* Alternate */
+    --black: #222831;
+    --dark-grey: #393E46;
+    --teal: #00ADB5;
+    --light-grey: #EEEEEE;
+
+    --primary: var(var(--black));
+    --secondary: var(var(--dark-grey));
+    --third: var(var(--teal));
+    --fourth: var(var(--light-grey));
+
+    color: var(--fourth);
+    background-color: var(--primary) ;
 }
 
 a {
@@ -30,7 +44,7 @@ a {
     color: inherit;
     transition-duration: 200ms;
     transition-timing-function: ease-in;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto Condensed'; */
 }
 
 a:hover {
@@ -45,11 +59,12 @@ a:hover {
 
 body {
     font-size: 14px;
+    background-color: #222831;
     background: rgb(26,18,38);
-    background: linear-gradient(90deg, rgba(26,18,38,1) 0%, rgba(4,12,36,1) 50%, rgba(23,31,48,1) 100%);
+    background: linear-gradient(90deg, rgba(26,18,38,1) 0%, rgba(4,12,36,1) 50%, rgba(23,31,48,1) 100%); */
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
+    color: #EEEEEE;
     height: 100vh;
 }
 
@@ -69,7 +84,7 @@ body {
 }
 
 p {
-    color: var(--grey)
+    color: #EEEEEE;
 }
 
 .btn {

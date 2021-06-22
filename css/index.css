@@ -16,9 +16,16 @@ Now Showing | Coming Soon
 }
 
 #coming-soon {
-    font-family: 'Open Sans Condensed';
+    font-family: 'Roboto Condensed';
     color: var(--grey);
+    font-size: 1.2rem;
 }
+
+/* #coming-soon:hover {
+    transform: scale(1.2);
+    font-family: 'Open Sans Condensed';
+    color: var(--gold);
+} */
 
 #seperator {
     font-size: 2.5rem;
@@ -133,6 +140,8 @@ Movies section
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
     box-shadow: 0rem 0.5rem 1.5rem grey, 0rem 1.5rem 1.5rem black;
+    border-radius: 1rem;
+    border: 1px solid #EEEEEE;
 }
 
 .movie-poster {
