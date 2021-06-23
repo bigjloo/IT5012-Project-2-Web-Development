@@ -3,10 +3,12 @@
 
 [Eye Candy Cinemas](https://eyecandycinema.netlify.app/) :point_left:
 
-<img src="web_snip.jpg" width="600">
+<img src="/images/readme_images/web_snip.jpg" width="600">
 <br>
-<img src="movie_details_page.jpg" width="300">
-
+<img src="/images/readme_images/movie_details_page.jpg" width="300">
+<img src="/images/readme_images/booking.jpg" width="300">
+<img src="/images/readme_images/payment.jpg" width="300">
+<img src="/images/readme_images/thank_you.jpg" width="300">
 ## Learning Objectives
 - Design and build website using current web standards
 - Understand usability, utility, accessability for web design
