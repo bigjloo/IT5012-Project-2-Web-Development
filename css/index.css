@@ -135,6 +135,7 @@ Movies section
     transform: scale(1);
 }
 
+
 .card:hover, .card:focus{
     transform: scale(1.15);
     transition-duration: 300ms;

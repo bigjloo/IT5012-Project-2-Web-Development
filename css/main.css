@@ -18,7 +18,7 @@
 :root {
     --gold: #FAD02C;
     --grey: #838383;
-    --purple: #702384;
+    --purple: #A239EA;
     --dark-purple: #371040;
     --purpleish:  #0e0d12;
     --purple-black:#09080b;
@@ -61,11 +61,25 @@ body {
     font-size: 14px;
     background-color: #222831;
     background: rgb(26,18,38);
-    background: linear-gradient(90deg, rgba(26,18,38,1) 0%, rgba(4,12,36,1) 50%, rgba(23,31,48,1) 100%); */
+    background: linear-gradient(90deg, rgba(26,18,38,1) 0%, rgba(4,12,36,1) 50%, rgba(23,31,48,1) 100%); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #EEEEEE;
     height: 100vh;
+    background-size: 300% 300%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 #main-container {
