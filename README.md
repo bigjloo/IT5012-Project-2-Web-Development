@@ -9,6 +9,7 @@
 <img src="/images/readme_images/booking.jpg" width="300">
 <img src="/images/readme_images/payment.jpg" width="300">
 <img src="/images/readme_images/thank_you.jpg" width="300">
+
 ## Learning Objectives
 - Design and build website using current web standards
 - Understand usability, utility, accessability for web design
