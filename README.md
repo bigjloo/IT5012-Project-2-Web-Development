@@ -1,7 +1,7 @@
 
 # IT5012 - Project 2 - Client-side Web Project
 
-[Eye Candy Cinemas](https://eyecandycinema.netlify.app/) :point_left:
+## [Eye Candy Cinemas](https://eyecandycinema.netlify.app/) :point_left:
 
 <img src="/images/readme_images/web_snip.jpg" width="600">
 <br>
