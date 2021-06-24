@@ -23,6 +23,7 @@
 - UX Pin - UX Design 2015/2016 - Successful Trends for Digital Products
 - [goodui.org](goodui.org)
 - [material.io](material.io)
+- [WC3 Web Accessibility Guide](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
 ### Planning
  Identify user goals and purpose
