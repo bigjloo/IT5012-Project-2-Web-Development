@@ -3,7 +3,7 @@
 
 ## [Eye Candy Cinemas](https://eyecandycinema.netlify.app/) :point_left:
 
-<img src="/images/readme_images/web_snip.jpg" width="600">
+<img src="/images/readme_images/web_snip.jpg" width="800">
 <br>
 <img src="/images/readme_images/movie_details_page.jpg" width="300">
 <img src="/images/readme_images/booking.jpg" width="300">
@@ -15,8 +15,6 @@
 - Understand usability, utility, accessability for web design
 - Web development life cycle
 - User Centered Design and UX
-
-
 
 ## Study materials 
 - [usability.org](usability.org)
