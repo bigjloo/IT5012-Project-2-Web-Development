@@ -1,10 +1,4 @@
 window.addEventListener('DOMContentLoaded', () => {
-    function setSeatDiv(){
-        seatCount.innerHTML = count;
-        priceTotal.innerHTML = `$${count * ticketPrice}.00`;
-        localStorage.setItem("tickets", count);
-    }
-
     function addsClassToSeatsWhenClicked(){
         var count= 0;
         var seatCount = document.getElementById('seat-selected-count');
@@ -27,7 +21,14 @@ window.addEventListener('DOMContentLoaded', () => {
                 }
             })
         })
+
+        function setSeatDiv(){
+            seatCount.innerHTML = count;
+            priceTotal.innerHTML = `$${count * ticketPrice}.00`;
+            localStorage.setItem("tickets", count);
+        }
     }
 
     addsClassToSeatsWhenClicked();
+    
 })
