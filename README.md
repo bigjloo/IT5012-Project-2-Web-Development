@@ -23,6 +23,9 @@
 - [material.io](material.io)
 - [WC3 Web Accessibility Guide](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
+## Tools Used:
+- WAVE evaluation tool (web accessibility test)
+
 ### Planning
  Identify user goals and purpose
  Allow users to view movie details and make bookings via web portal
