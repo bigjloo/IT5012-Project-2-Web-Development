@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-    var isScheduleCollapsed = true;
+    let isScheduleCollapsed = true;
     const booking_schedule_div = document.getElementById('booking-schedule');
     const todaySchedule = 
             `<div class="daily-schedule">

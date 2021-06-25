@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', () => {
     function addsClassToSeatsWhenClicked(){
-        var count= 0;
-        var seatCount = document.getElementById('seat-selected-count');
-        var priceTotal = document.getElementById('total-price');
+        let count= 0;
+        const seatCount = document.getElementById('seat-selected-count');
+        const priceTotal = document.getElementById('total-price');
         const seats = document.getElementsByClassName('seat');
         const ticketPrice = 12;
 

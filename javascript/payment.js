@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
     // Gets ticket count from Booking page and updates seats, price, ticket count
     function updateAndRenderTickets(){
-        var ticketCount = getTicketCount();
+        const ticketCount = getTicketCount();
 
         setTicketCount(ticketCount);
         setPrice(ticketCount);
@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Sets price
     function setPrice(ticketCount){
-        var price = 12;
+        const price = 12;
         const priceTotalDiv = document.getElementById('total-price');
         priceTotalDiv.innerHTML = `$${ticketCount * price}.00`;
     }
