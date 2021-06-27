@@ -21,12 +21,16 @@ Movie Booking Details
     margin-top: 0.5rem;
 }
 
-.movie-booking-information .highlight{
-    font-size: 2rem;
+.movie-booking-information h1{
+    font-size: 3rem;
+    margin: 0rem;
 }
+
+
 .movie-booking-information .movie-title{
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 100;
+    margin: 0;
 }
 
 .location-theatre, .date-time {
@@ -130,7 +134,7 @@ Payment section
 }
 
 label[for='tnc'] {
-    margin-top: 3rem;
+    margin-top: 2rem;
     color: white
 }
 

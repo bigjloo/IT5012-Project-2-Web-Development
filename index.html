@@ -33,11 +33,11 @@
     </header>
     
     <!-- Wide carousel -->
-    <section>
+    <section role="carousel">
         <a href="/html/movie_details.html"><img id ="slideImage" class="carousel" src="../images/large/imax.jpg" alt="avengers endgame horizontal poster carousel jumbotron"></a> 
     </section>
 
-    <main id="main-container">
+    <main id="main-container" role="main">
         <!-- Now showing | coming soon -->
         <section id="now-showing-coming-soon-section">
             <h3 class="highlight">NOW SHOWING</h3>
@@ -46,7 +46,7 @@
         </section>
 
         <!-- Location menu & search bar -->
-        <section id="location-search">
+        <section id="location-search" role="location select">
             <div class="location-dropdown-menu">
                 <span class="highlight large-body">WHAT'S ON AT</span>
                 <form>
@@ -59,7 +59,7 @@
                 </form>
                 <button class="btn-small">GO</button>
             </div>
-            <div class="search-bar">
+            <div class="search-bar" role="search">
                 <form><input class="no-bg-input" type="text" placeholder="Search for film or event"></form>
                 <img class="icon" src="../images/icons/search_white.png" alt="search icon">
             </div>    

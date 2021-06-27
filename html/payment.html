@@ -37,8 +37,8 @@
             <section id="movie-booking-details">
                 <img class="movie-poster-thumbnail" src="../images/movie_posters/endgame_avengers_810_1200.jpg" alt="avengers: endgame movie poster thumbnail">
                 <section class="movie-booking-information">
-                    <span class="highlight">NOW BOOKING</span>
-                    <span class="movie-title">Avengers: Endgame</span>
+                    <h1 class="highlight">NOW BOOKING</h1>
+                    <h2 class="movie-title">Avengers: Endgame</h2>
                     <span class="location-theatre">Newmarket, Theatre 8</span>
                     <span class="date-time"><abbr title="Wednesday">WED</abbr> 19 <abbr title="June">JUN</abbr>, 9:30PM - 11:30PM</span>
                 </section>
@@ -50,35 +50,32 @@
             <!-- Ticket count + seats -->
             <section id="tickets">
                 <span id="ticket-count"></span> 
-                <div id="seats"></div>
+                <span id="seats"></span>
             </section>
             <!-- Payment section -->
             <section id="payment">
                 <span>Total: <span id="total-price" class="white">$0.00</span></span>
                 <form action="thank_you_page.html">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Contact number">
+                    <input name="email" type="text" placeholder="Email">
+                    <input name="contact-number" type="text" placeholder="Contact number">
                         <!-- TODO rounded checkbox-->
-                    <label class="white">SELECT PAYMENT METHOD</label>
-                    <div>               
-                        
-                            <input type="checkbox" name="visa" value="visa">
-                           
-                            <label for="visa"> <span class="checkmark"></span>
-                                PAY BY VISA</label>
+                    <h4 class="white">SELECT PAYMENT METHOD</h4>
+                    <div>                   
+                        <input type="checkbox" name="visa" value="visa">
+                        <label for="visa">PAY BY VISA</label>        
                     </div>
                     <div>
-                        <input type="checkbox" name="online banking" value="online banking">
-                        <label for="online banking">PAY BY ONLINE BANKING</label>
+                        <input type="checkbox" name="online-banking" value="online-banking">
+                        <label for="online-banking">PAY BY ONLINE BANKING</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="google pay" value="google pay">
-                        <label for="google pay">PAY BY GOOGLE PAY</label>
+                        <input type="checkbox" name="google-pay" value="google-pay">
+                        <label for="google-pay">PAY BY GOOGLE PAY</label>
                     </div>
                     <label for="tnc">
                         <input type="checkbox" name="tnc" value="tnc">
                         I AGREE TO TERMS AND CONDITION
-                    </label>
+                    </label>    
                     <button id="submit-button" type="submit">Submit</button>
                 </form>
             </section>

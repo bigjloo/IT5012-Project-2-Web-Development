@@ -22,12 +22,14 @@ Movie Booking Details
     margin-top: 0.5rem;
 }
 
-.movie-booking-information .highlight{
-    font-size: 2rem;
+.movie-booking-information h1{
+    font-size: 3rem;
+    margin: 0;
 }
 .movie-booking-information .movie-title{
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 100;
+    margin: 0;
 }
 
 .location-theatre, .date-time {
