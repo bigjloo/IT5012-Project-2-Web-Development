@@ -155,7 +155,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const toggleAllScheduleElement = document.getElementById('toggle-more-schedule');
 
     toggleAllScheduleElement.addEventListener('click', (e) => {
-        if (isScheduleCollapsed == true) {
+        if (isScheduleCollapsed) {
             booking_schedule_div.innerHTML = allSchedule;
             isScheduleCollapsed = false;
             toggleAllScheduleElement.innerHTML = `<span class="highlight">-COLLAPSE</span>`
