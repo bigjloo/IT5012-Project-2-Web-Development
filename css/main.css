@@ -188,7 +188,7 @@ footer ul li {
 }
 
 hr {
-    margin: 3rem 1rem;
+    margin: 3rem 0rem;
     opacity: 50%;
     background-color: var(--purpleish)
 }
